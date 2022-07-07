@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4535194561103814570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4535194561103814572}
+  - component: {fileID: 4535194561103814573}
+  m_Layer: 0
+  m_Name: SeasonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4535194561103814572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535194561103814570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.010435752, y: 1.6308371, z: -7.3963866}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4535194561103814573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535194561103814570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55b1fbab6418b42aa8c9da5c4de9494f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerObj: {fileID: 0}
+  delay: 0.45
+  sounds:
+  - name: walk1spring
+    clip: {fileID: 8300000, guid: e65fdb5d2b8f08d43ae5d2f371b59aab, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk2spring
+    clip: {fileID: 8300000, guid: 945ca66c88c172c478d63f3dec193b65, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk3spring
+    clip: {fileID: 8300000, guid: cad9c5a8326b31541bf89ce3b1c1eb4d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk4spring
+    clip: {fileID: 8300000, guid: 97e2399d9d070e944a3e0235cda29a27, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk1summer
+    clip: {fileID: 8300000, guid: 81277158acfe63b4eb226a67c6accdee, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk2summer
+    clip: {fileID: 8300000, guid: ce186217461c3134b8c55da827087e09, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk3summer
+    clip: {fileID: 8300000, guid: 97acb5625edd2264e8ee0d4f65457487, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk4summer
+    clip: {fileID: 8300000, guid: b40a9adcce11b1c4ba39751ee13b18be, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk1fall
+    clip: {fileID: 8300000, guid: ac31b165b080c904280149fbce221af0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk2fall
+    clip: {fileID: 8300000, guid: aca45e222fc15624695a2b9c0d19e7ca, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk3fall
+    clip: {fileID: 8300000, guid: c661996ae6f36214ca6821f3164edd96, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk4fall
+    clip: {fileID: 8300000, guid: bbbfcfc6e6d09d243a737bcdd377fc26, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk1winter
+    clip: {fileID: 8300000, guid: 05f17187da1abe74eb95af7dd3a1b258, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk2winter
+    clip: {fileID: 8300000, guid: 0e2d7f7d4e2e1a442877f16061dc50f5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk3winter
+    clip: {fileID: 8300000, guid: b6bd23c6c6102b54490d29d456aaee42, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: walk4winter
+    clip: {fileID: 8300000, guid: 90240ff957b997c4a8f1e3964ad11ccd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: grunt1spring
+    clip: {fileID: 8300000, guid: 754caae10702d1c49892d7d4cf99f46e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: grunt2spring
+    clip: {fileID: 8300000, guid: 4b7b632ac7155d540a087ac29f0fcd82, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: grunt3spring
+    clip: {fileID: 8300000, guid: 76d30452443651a4a9fc0d7e8ea1e6e2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: grunt1summer
+    clip: {fileID: 8300000, guid: 756491966816f334c9b8dd03a4d5a1d3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: grunt2summer
+    clip: {fileID: 8300000, guid: 4b7b632ac7155d540a087ac29f0fcd82, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: grunt3summer
+    clip: {fileID: 8300000, guid: 64ec73b53da41ea4dabe0a059d6287c9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: grunt1fall
+    clip: {fileID: 8300000, guid: 817ac76ca23129e49879733d49df6389, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: grunt2fall
+    clip: {fileID: 8300000, guid: 01637174a8545d549b18fc872f3611ab, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: grunt3fall
+    clip: {fileID: 8300000, guid: c88b114eaf8bacc44b6c4e0950a7284b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: grunt1winter
+    clip: {fileID: 8300000, guid: b4a4e9f0303323b408ffd61be5982bda, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: grunt2winter
+    clip: {fileID: 8300000, guid: e7ebbb47ea4dfe04c8a10117cf57b502, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: grunt3winter
+    clip: {fileID: 8300000, guid: 63dfe89e3c3967a4fa3b0fde2429d374, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  seasonSounds:
+  - name: SpringSong1
+    clip: {fileID: 8300000, guid: eb0f7dce6bb05c44eaf4745ee10daed8, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: SpringSong2
+    clip: {fileID: 8300000, guid: c20a0ea327d7536459f19a2898eeb3c7, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: SpringSong3
+    clip: {fileID: 8300000, guid: 2ee0ea412328fbd449df97cd7d88904f, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: SummerSong1
+    clip: {fileID: 8300000, guid: f01b139098ed7ab4292661f46efcaf5f, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: SummerSong2
+    clip: {fileID: 8300000, guid: 61fb127c47f5f294381e25ac3d2d77c1, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: SummerSong3
+    clip: {fileID: 8300000, guid: 47deda669ee69044ca821b74a4b5dc71, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: FallSong1
+    clip: {fileID: 8300000, guid: cd0e1e6d71c613e498f943e1c2a769fd, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: FallSong2
+    clip: {fileID: 8300000, guid: 4bc78e2caea1fdc46ac6fdb57242c3dd, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: FallSong3
+    clip: {fileID: 8300000, guid: 99cbcde4883a61645a58e393c3f584ad, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: WinterSong1
+    clip: {fileID: 8300000, guid: 1c878c84f558dfb4abb295149cfec203, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: WinterSong2
+    clip: {fileID: 8300000, guid: 37f709961fc3fd14c9c1916f549e86a7, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: WinterSong3
+    clip: {fileID: 8300000, guid: 99cbcde4883a61645a58e393c3f584ad, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  interval: 8
